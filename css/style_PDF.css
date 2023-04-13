@@ -1,0 +1,96 @@
+/* chung */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Uppercase {
+  text-transform: uppercase;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bor-b-radius-6{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* bố cục bảng */
+#dashboard {
+  display: flex !important;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hiển thị bảng bệnh án */
+#dashboard #list {
+  padding: 0px 20px;
+  width: 100%;
+}
+
+#dashboard #list .table tbody {
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+
+/* #dashboard  #list .table td */
+#dashboard #list .table tr {
+  border-bottom: 1px solid black;
+}
+
+#dashboard #list .table tbody td {
+  padding: 15px 10px;
+}
+
+#dashboard #list .table tr a {
+  text-decoration: none;
+}
+
+#dashboard #list .sp-patient {
+  padding-left: 20px;
+  width: 70%;
+}
+
+#dashboard #list .width-stt {
+  width: 70px;
+  border-right: 1px solid black;
+}
+
+/* show PDF */
+#dashboard #show-pdf{
+    padding-top: 10px;
+    width: 70%;
+}
+
+#canvas_container {
+  background: #333;
+  text-align: center;
+  border: solid 3px;
+  height: 92%;
+}
+
+#dashboard .control{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1;
+    /* margin-bottom: 20%; */
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>đăng nhập bằng mã y tế</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+
+    <!-- form khai báo -->
+    <div id="KhaiBao">
+      <form name="frmYte bg-form">
+        <table align="center" class="TableInfor">
+
+          <tr>
+            <!-- <th rowspan="5" id="bg-table-img">
+            </th> -->
+            <th style="width: 40%;">
+              <div class="alignCenter">
+                <img class="logo" src="img/logo1.png" />
+              </div>
+            </th>
+          </tr>
+          
+          <tr>
+            <td>
+              <div class="alignCenter Uppercase FontStyle underline">
+                <h2>khai báo y tế</h2>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="Uppercase FontStyle">
+              <!-- Nhập Mã Y tế: <br/> -->
+              <!-- <div class="box"> -->
+                <input type="text" placeholder="Nhập mã y tế" name="MaYTE" id="MaYTe" class="NhapMa" />
+              <!-- </div> -->
+            </td>
+          </tr>
+
+          <tr>
+            <td class="Uppercase FontStyle">
+              <!-- Nhập số điện thoại: <br/> -->
+              <input type="number" placeholder="Nhập số điện thoại" name="sdt" id="sdt" class="NhapMa" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="button" id="loginYTE" class="btnLogIn btnFont Uppercase FontStyle" name="login" value="đăng nhập" onclick="KiemTra()" />
+            </td>
+          </tr>
+
+        </table>
+      </form>
+    </div>
+    
+    <script src="js/test.js"></script>
+  </body>
+</html>

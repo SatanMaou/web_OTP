@@ -1,0 +1,15 @@
+DELIMITER $$
+ 
+DROP PROCEDURE IF EXISTS loopOTP$$
+ 
+CREATE PROCEDURE loopOTP()
+BEGIN     
+        WHILE (TRUE) DO
+        	UPDATE `otp` SET `MaOTP` = FLOOR(1000 + RAND()*(9999-1000));
+            DO SLEEP(3600);
+        END WHILE;
+END$$
+
+DELIMITER ;
+
+CALL loopOTP();
